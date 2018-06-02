@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="INICIO" />
+        <item
+            android:id="@+id/nav_compras"
+            android:icon="@drawable/ic_money"
+            android:title="COMPRAR PAN" />
+        <item
+            android:id="@+id/nav_mostrarCompras"
+            android:icon="@drawable/ic_see_money"
+            android:title="MOSTRAR HISTORIAL" />
+        <item
+            android:id="@+id/nav_verLocal"
+            android:icon="@drawable/ic_local"
+            android:title="VER LOCALES AFILIADOS" />
+        <item
+            android:id="@+id/nav_editar"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="EDITAR DATOS" />
+        <item
+            android:id="@+id/nav_session"
+            android:icon="@drawable/ic_close"
+            android:title="CERRAR SESION" />
+    </group>
+</menu>
